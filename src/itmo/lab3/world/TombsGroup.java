@@ -20,13 +20,6 @@ public class TombsGroup extends WorldObject implements ImagedWorldObject {
         this.pattern = pattern;
     }
 
-    public TombsGroup(String name, int x, int y, ShapeEnum tombShape) {
-        super(name, x, y);
-        this.group = true;
-        this.tombShape = tombShape;
-
-    }
-
     public ShapeEnum getTombShape() {
         return tombShape;
     }
